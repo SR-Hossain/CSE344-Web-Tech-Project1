@@ -88,8 +88,9 @@ Here are the detailed instructions for setting up and running a Java Servlet pro
 
 ## Project Setup
 
-1. Browse in your folder and copy the sust folder into your webapps folder of tomcat9:
+1. Download this repository by the name "sust" and copy the sust folder into your webapps folder of tomcat9:
    ```bash
+   git clone https://github.com/<username>/CSE344-Web-Tech-Project1.git sust
    sudo cp sust /var/lib/tomcat9/webapps/
    ```
 
