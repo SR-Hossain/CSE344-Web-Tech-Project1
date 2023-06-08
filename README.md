@@ -85,6 +85,7 @@ Here are the detailed instructions for setting up and running a Java Servlet pro
   sudo apt-get install mysql-server
   ```
 
+
 ## Project Setup
 
 1. Browse in your folder and copy the sust folder into your webapps folder of tomcat9:
