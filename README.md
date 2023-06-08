@@ -269,3 +269,4 @@ sudo systemctl stop mysql
 sudo systemctl start mysql
 ```
 4. Change your mysql user info in the jsp files to execute sql command.
+
