@@ -21,7 +21,7 @@ To run the project locally, you need to have Tomcat 9 or a compatible servlet co
 
 1. Clone the project repository by the name "sust":
    ```bash
-   git clone https://github.com/<username>/CSE344-Web-Tech-Project1.git sust
+   git clone https://github.com/SR-Hossain/CSE344-Web-Tech-Project1.git sust
    ```
 
 2. Deploy the project:
@@ -91,7 +91,7 @@ Here are the detailed instructions for setting up and running a Java Servlet pro
 
 1. Download this repository by the name "sust" and copy the sust folder into your webapps folder of tomcat9:
    ```bash
-   git clone https://github.com/<username>/CSE344-Web-Tech-Project1.git sust
+   git clone https://github.com/SR-Hossain/CSE344-Web-Tech-Project1.git sust
    sudo cp sust /var/lib/tomcat9/webapps/
    ```
 
