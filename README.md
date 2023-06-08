@@ -19,9 +19,9 @@ The project includes the following key features:
 
 To run the project locally, you need to have Tomcat 9 or a compatible servlet container installed. Follow these steps:
 
-1. Clone the project repository:
+1. Clone the project repository by the name "sust":
    ```bash
-   git clone https://github.com/<username>/CSE344-Web-Tech-Project1.git
+   git clone https://github.com/<username>/CSE344-Web-Tech-Project1.git sust
    ```
 
 2. Deploy the project:
@@ -94,7 +94,7 @@ Here are the detailed instructions for setting up and running a Java Servlet pro
 
 2. Navigate to the project directory: Use the following command to navigate to the newly created project directory:
    ```bash
-   cd sust
+   cd /var/lib/tomcat9/webapps/sust
    ```
 
 3. Compile the source files: In the Terminal, compile the Java source files using the following command:
@@ -222,10 +222,10 @@ sudo systemctl restart tomcat9
 
 ```sql
 INSERT INTO department (department, semester, course_id, course_name, course_credit, teacher_id, course_dept)
-VALUES ('CSE', 1, 'CSE101', 'Discrete Math', 3.00, 't1', 'CSE');
+VALUES ('CSE', 1, 'CSE101', 'Discrete Math', 3.00, NULL, 'CSE');
 
 INSERT INTO department (department, semester, course_id, course_name, course_credit, teacher_id, course_dept)
-VALUES ('CSE', 1, 'CSE127', 'C Programming', 3.00, 't1', 'CSE');
+VALUES ('CSE', 1, 'CSE127', 'C Programming', 3.00, NULL, 'CSE');
 
 INSERT INTO department (department, semester, course_id, course_name, course_credit, teacher_id, course_dept)
 VALUES ('CSE', 1, 'CSE147', 'Ethics', 3.00, NULL, 'CSE');
@@ -269,4 +269,3 @@ sudo systemctl stop mysql
 sudo systemctl start mysql
 ```
 4. Change your mysql user info in the jsp files to execute sql command.
-
