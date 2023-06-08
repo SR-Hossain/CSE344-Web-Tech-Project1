@@ -1,4 +1,3 @@
-```markdown
 # CSE344-Web-Tech-Project1
 
 This is a web-based project developed using Java Servlets and Tomcat 9.
